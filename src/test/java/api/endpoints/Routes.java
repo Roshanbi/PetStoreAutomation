@@ -26,6 +26,16 @@ public class Routes {
 
 	// pet modules
 	
-	//pet module url's here
+	/*
+	 * Add a pet(post)-->https://petstore.swagger.io/v2/pet
+	 * Get pet by ID(get)-->https://petstore.swagger.io/v2/pet/{petid}
+	 * Update pet(put)-->https://petstore.swagger.io/v2/pet
+	 * Delete pet(delete)--> https://petstore.swagger.io/v2/pet/{petid}
+	 */
+	
+	public static final String post_pet_url = base_url + "/pet";
+	public static final String get_pet_url = base_url + "/pet/{id}";
+	public static final String put_pet_url = base_url + "/pet";
+	public static final String delete_pet_url = base_url + "/pet/{id}";
 
 }

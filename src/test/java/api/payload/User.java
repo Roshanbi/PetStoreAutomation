@@ -1,5 +1,7 @@
 package api.payload;
 
+import java.util.List;
+
 public class User {
 	
 	int id;
