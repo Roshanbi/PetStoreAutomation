@@ -19,6 +19,24 @@ import api.payload.Pet.Category;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
+/*{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}*/
 public class PetTests {
 	Pet petPayload;
 	Pet.Category category;
