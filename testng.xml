@@ -6,7 +6,7 @@
 		<listener class-name="api.utilities.ExtentReportManager" />
 	</listeners>
 	
-	<test thread-count="5" name="PetTests">
+	<test  name="PetTests">
 		<classes>
 			<!--<class name="api.test.UserTests" />-->
 			<!--<class name="api.test.UserTests2" />-->

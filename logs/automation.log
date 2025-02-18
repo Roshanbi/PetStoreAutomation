@@ -331,3 +331,31 @@
 13:34:49.722 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 13:34:49.735 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
 13:34:49.736 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:38:50.657 [main] INFO  api.test.PetTests2 - ******adding a pet******
+17:38:59.999 [main] INFO  api.test.PetTests2 - *****pet is added******
+18:03:24.016 [main] INFO  api.test.PetTests2 - ******adding a pet******
+18:03:30.497 [main] INFO  api.test.PetTests2 - *****pet is added******
+23:43:11.584 [main] INFO  api.test.PetTests2 - ******adding a pet******
+23:43:20.218 [main] INFO  api.test.PetTests2 - ******getting a pet by Id******
+23:43:25.215 [main] INFO  api.test.PetTests2 - ******Pet info is displayed******
+23:43:25.232 [main] INFO  api.test.PetTests2 - ******Upadating existing pet details******
+23:43:25.765 [main] INFO  api.test.PetTests2 - ******Deleting existing pet******
+23:43:26.264 [main] INFO  api.test.PetTests2 - ******Deleted pet******
+23:45:11.667 [main] INFO  api.test.PetTests2 - ******adding a pet******
+23:45:18.488 [main] INFO  api.test.PetTests2 - *****pet is added******
+23:45:18.523 [main] INFO  api.test.PetTests2 - ******getting a pet by Id******
+23:45:23.372 [main] INFO  api.test.PetTests2 - ******Pet info is displayed******
+23:45:23.380 [main] INFO  api.test.PetTests2 - ******Upadating existing pet details******
+23:45:23.936 [main] INFO  api.test.PetTests2 - ******Checking the updated details******
+23:45:24.619 [main] INFO  api.test.PetTests2 - ******Pet info updated******
+23:45:24.629 [main] INFO  api.test.PetTests2 - ******Deleting existing pet******
+23:45:25.159 [main] INFO  api.test.PetTests2 - ******Deleted pet******
+23:49:42.407 [main] INFO  api.test.PetTests2 - ******adding a pet******
+23:49:49.086 [main] INFO  api.test.PetTests2 - *****pet is added******
+23:49:49.122 [main] INFO  api.test.PetTests2 - ******getting a pet by Id******
+23:49:53.912 [main] INFO  api.test.PetTests2 - ******Pet info is displayed******
+23:49:53.920 [main] INFO  api.test.PetTests2 - ******Upadating existing pet details******
+23:49:54.475 [main] INFO  api.test.PetTests2 - ******Checking the updated details******
+23:49:55.046 [main] INFO  api.test.PetTests2 - ******Pet info updated******
+23:49:55.068 [main] INFO  api.test.PetTests2 - ******Deleting existing pet******
+23:49:55.562 [main] INFO  api.test.PetTests2 - ******Deleted pet******

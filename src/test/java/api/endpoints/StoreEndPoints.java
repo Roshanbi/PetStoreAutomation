@@ -16,7 +16,8 @@ public class StoreEndPoints {
 					.accept("application/json")
 					.body(payload)
 
-					.when().post(Routes.post_store_url);
+					.when()
+					 .post(Routes.post_store_url);
 
 			return response;
 

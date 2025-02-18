@@ -77,11 +77,11 @@ public class PetTests {
 	@Test(priority = 1)
 	public void testPostPet() {
 
-		logger.info("******creating pet******");
+		logger.info("******adding a pet******");
 		Response response = PetEndPoints.createPet(petPayload);
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
-		logger.info("*****pet is created******");
+		logger.info("*****pet is added******");
 	}
 
 	@Test(priority = 2)
@@ -109,7 +109,8 @@ public class PetTests {
 		logger.info("******Updating pet******");
 		// Update only specific fields in the payload
 		
-		petPayload.setName("Puppy");
+		petPayload.getId();
+        petPayload.setName("Puppy");
 		petPayload.setStatus("sold");
 
 		 // Ensure the entire payload is sent

@@ -32,7 +32,7 @@ public class DataProviders {
 
 		int totalrows = xl.getRowCount("Sheet1");
 
-		String apidata[] = new String[totalrows];// storing data in 2 dimensional array
+		String apidata[] = new String[totalrows];// storing data in 1 dimensional array
 
 		for (int i = 1; i <= totalrows; i++) {
 			apidata[i - 1] = xl.getCellData("Sheet1", i, 1);

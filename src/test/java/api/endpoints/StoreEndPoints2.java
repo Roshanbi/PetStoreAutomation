@@ -23,7 +23,7 @@ public class StoreEndPoints2 {
 		
 	String post_store_url = getURL().getString("post_store_url");
 	
-	Response response = given()
+	Response response=	given()
 			.contentType("application/json")
 			.accept("application/json")
 			.body(payload)
