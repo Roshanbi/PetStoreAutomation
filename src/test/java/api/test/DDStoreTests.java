@@ -8,7 +8,7 @@ import api.payload.Store;
 import api.utilities.DataProviders;
 import io.restassured.response.Response;
 
-public class DDTStoreTests {
+public class DDStoreTests {
 
  
 	

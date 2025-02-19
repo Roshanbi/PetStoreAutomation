@@ -42,7 +42,7 @@ public class PetEndPoints {
 	public static Response updatePet(Pet payload) {
 	
 		Response response=given()
-		 .contentType("application/json")
+		 
 		 .accept("application/json")
 		 .body(payload)
 		
